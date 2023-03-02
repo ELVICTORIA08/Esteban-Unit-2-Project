@@ -1,0 +1,130 @@
+/* The code on lines 2-4 centers the text of all h1's on the page.*/
+h1 {
+    text-align: center;
+    border: 2px solid red;
+    border: 10px dotted red;
+    border: 50px groove red;}
+
+a:hover {
+  background-color: yellow;
+}
+
+
+/*The code on lines 6-11 centers all images on the page and gives them a width of 400px.*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin: auto;
+
+}
+
+/* The code on lines 14-16 centers the text of all h2's on the page*/
+h2 {
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+
+}
+
+img {
+    width: 1000px;
+}
+
+/* The code on lines 19-22 aligns all the sections horizontally on the bottom*/
+.sectionsContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+/* The code on lines 25-28 gives  a solid black border to section and puts space between them (the margin) */
+.section {
+    border: 5px red solid;
+    margin: 50px;
+    border: 2px solid red;
+    border: 10px dotted red;
+    border: 50px groove red;
+
+
+}
+
+.section:hover {
+    background-color: black;
+    border: 2px solid red;
+    border: 10px dotted red;
+    border: 50px groove red;
+}
+
+h1 {
+    text-shadow: 2px 2px #ff0000;
+
+}
+
+img {
+    border-radius: 8px;
+}
+
+img:hover {
+    background-color: red;
+}
+
+.school {
+    color: red;
+}
+
+.effect {
+    color: Yellow;
+}
+
+body {
+    background-color: black;
+display:flex;
+flex-direction: column;
+justify-content: center;
+
+
+}
+
+.pros {
+    color: white;}
+.hovertext {
+  position: relative;
+        border-bottom: 1px dotted black;}
+
+.hovertext:before{content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+ 
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 5px;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.gun {
+    color: white;
+}
+
+.callout {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: auto;
+}
+.wholepage{
+    display:flex;
+   flex-direction: column;
+}
